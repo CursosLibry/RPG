@@ -7,7 +7,7 @@ class Model{ // contém as operações e metodos comuns de todas as models
 
 
     public function __construct(){
-        $d = new PDO(Conexao::HOST, Conexao::USER, Conexao::PASS);
+        $d = new PDO(Connection::HOST, Connection::USER, Connection::PASS);
         $this->conn = $d;
     } 
 

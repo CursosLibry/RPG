@@ -8,7 +8,7 @@ if($_POST){
 		$classe->email = $_POST['email'];
 		$classe->nick = $_POST['nick'];
 		$classe->password = $_POST['password'];
-		if($class->validateInsert()){
+		if($classe->validateInsert()){
 			$classe->insert();
 			$classe->redirect();
 		}

@@ -54,6 +54,9 @@
          </div>
       </section>
       </div>
+
+
+
       <!-- Seção de Opções para o Mestre -->
       <div id="secaoMestre">
       <section class="feature-inner py-lg-4 py-md-3 py-sm-3 py-3">
@@ -141,7 +144,7 @@
                      <h5>Grupos de RPG</h5>
                   </div>
                   <div class="address-left text-center">
-                     <span class="fas fa-cubes"></span>
+                     <a href="createGroup.php"><span class="fas fa-cubes"></span></a>
                   </div>
                   <div class="address-right">
                      <p class="pt-2">Aqui você pode acessar os grupos de RPG que você faz parte. Se você não tem nenhum grupo é um ótimo lugar para começar então. Os grupos de RPG são os espaços em que estarão os grupos(obviamente) com suas respectivas histórias previamente criadas e também suas fichas, uma vez que todos engressarem no grupo o mestre pode fechá-lo e começar o jogo.
@@ -189,6 +192,9 @@
    
      
       </div>
+
+
+
     <!-- Seção de Opções para o Jogador -->
       <div id="secaoJogador">
       <section class="feature-inner py-lg-4 py-md-3 py-sm-3 py-3">

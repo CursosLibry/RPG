@@ -9,7 +9,7 @@
                <h3 class="title text-center  mb-lg-5 mb-md-4 mb-sm-4 mb-3">Toda lenda tem seu inicio</h3>
                <div class=" contact-wls-detail">
                   <div class="contact-form">
-                     <form action="/RPG/web/whatever/trataUser.php" method="post">
+                     <form action="/rpg/web/whatever/trataUser.php" method="post">
                         <div class="row agile-wls-contact-mid mb-sm-3 mb-2">
                            <div class="col-lg-6 col-md-6 form-group contact-forms">
                               <input type="text" class="form-control" placeholder="Nome Completo" required="">
