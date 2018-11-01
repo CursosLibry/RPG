@@ -1,4 +1,23 @@
          <?php include_once '../../inc/header.inc.php'; ?>
+         <?php
+         if($_GET){
+          if($_GET['err']){
+            switch ($_GET['err']) {
+              case 'name':
+                echo "<script>alert('Desculpe, mas esse nome já existe :(');</script>";
+                break;
+
+              case 'pass':
+                echo "<script>alert('As senhas devem ser iguais. Paciência é uma virtude meu jovem.');</script>";
+                break;
+              
+              default:
+                echo "<script>alert('Ooops. Algo deu errado, e não sabemos o que é. Espero que não esteja mexendo na URL >:( ');</script>";
+                break;
+            }
+          }
+         }
+         ?>
       <!-- banner -->
       <div class="inner_page-banner">
       </div>

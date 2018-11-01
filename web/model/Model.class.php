@@ -2,7 +2,7 @@
 require_once '../config/connection.php';
 class Model{ // contém as operações e metodos comuns de todas as models
 
-	private $id;
+	protected $id; //Segredo de família, tem que ser protected pra funcionar
 	private $conn;
 
 

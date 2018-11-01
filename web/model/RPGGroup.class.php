@@ -29,9 +29,35 @@ class RPGGroup extends Model{
         }
     }
 
+        public function lastInserted(){ // query for the group
+        try{
+            $c = $this->conn->prepare("SELECT * FROM rpggroup WHERE name = :name ");
+            $c->bindValue(':name',$this->name,PDO::PARAM_STR);
+            $c->execute();
+            $arr = $c->fetchAll(PDO::FETCH_CLASS, "RPGGroup");
+            return $arr[0];
+        }catch(Exception $e){
+// para o futuro tratamento de erros
+        }
+    }
+
+
+        public function listOne($id){ // query for the group
+        try{
+            $c = $this->conn->prepare("SELECT * FROM rpggroup WHERE id = :id ");
+            $c->bindValue(':id',$id,PDO::PARAM_STR);
+            $c->execute();
+            $arr = $c->fetchAll(PDO::FETCH_CLASS, "RPGGroup");
+            return $arr[0];
+        }catch(Exception $e){
+// para o futuro tratamento de erros
+        }
+    }
+
      public function redirect(){ // query for the group
         try{
-            return header("location: /rpg/web/view/user/group.php");
+            $obj = $this->lastInserted();
+            return header("location: /rpg/web/view/user/group.php?id=".$obj->id);
         }catch(Exception $e){
 // para o futuro tratamento de erros
         }
