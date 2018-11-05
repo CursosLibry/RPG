@@ -24,21 +24,21 @@
       </script>
       <!--//meta tags ends here-->
       <!--booststrap-->
-      <link href="/rpg/web/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
       <!--//booststrap end-->
       <!-- font-awesome icons -->
-      <link href="/rpg/web/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+      <link href="../css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
       <!-- //font-awesome icons -->
       <!--stylesheets-->
-      <link href="/rpg/web/css/style.css" rel='stylesheet' type='text/css' media="all">
+      <link href="../css/style.css" rel='stylesheet' type='text/css' media="all">
       <!--//stylesheets-->
       <!-- Nav-CSS -->	
-      <script src="/rpg/web/js/jquery-2.2.3.min.js"></script>      
-      <script src="/rpg/web/js/index.js"></script>
-      <link href="/rpg/web/css/nav.css" rel="stylesheet" type="text/css" media="all" />
-      <script src="/rpg/web/js/modernizr.custom.js"></script>
+      <script src="../js/jquery-2.2.3.min.js"></script>      
+      <script src="../js/index.js"></script>
+      <link href="../css/nav.css" rel="stylesheet" type="text/css" media="all" />
+      <script src="../js/modernizr.custom.js"></script>
       <!-- //Nav-CSS -->
-      <link href="/rpg/web/css/timeline.min.css" rel="stylesheet">
+      <link href="../css/timeline.min.css" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Cinzel+Decorative:400,700" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
@@ -60,19 +60,19 @@
                   <button type="button" class="overlay-close">Close</button>
                   <nav>
                      <ul>
-                        <li><a href="/rpg/web/view/index.php" >Home</a></li>
-                        <li><a href="/rpg/web/view/about.php" >About</a></li>
-                        <li><a href="/rpg/web/view/history.php" >History</a></li>
-                        <li><a href="/rpg/web/view/hero.php" >Avatar</a></li>
-                        <li><a href="/rpg/web/view/gallery.php" >Gallery</a></li>
-                        <li><a href="/rpg/web/view/contact.php"  >Contact</a></li>
-                        <li><a href="/rpg/web/view/user/login.php"  >Usuário</a></li>
+                        <li><a href="../view/index.php" >Home</a></li>
+                        <li><a href="../view/about.php" >About</a></li>
+                        <li><a href="../view/history.php" >History</a></li>
+                        <li><a href="../view/hero.php" >Avatar</a></li>
+                        <li><a href="../view/gallery.php" >Gallery</a></li>
+                        <li><a href="../view/contact.php"  >Contact</a></li>
+                        <li><a href="../view/user/login.php"  >Usuário</a></li>
                      </ul>
                   </nav>
                </div>
                <div class="hedder-logo">
-                  <h1><a href="/rpg/web/index.php">   
-                     <img src="/rpg/web/images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
+                  <h1><a href="../index.php">   
+                     <img src="../images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
                   </h1>
                </div>
                <!-- /open/close -->

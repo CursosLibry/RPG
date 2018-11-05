@@ -15,13 +15,13 @@
       </footer>
       <!-- //Footer -->
       <!--js working-->
-      <script src='/rpg/web/js/jquery-2.2.3.min.js'></script>
+      <script src='../js/jquery-2.2.3.min.js'></script>
       <!-- For the demo ad only -->  
       <!--nav menu-->
-      <script src="/rpg/web/js/classie.js"></script>
-      <script src="/rpg/web/js/demonav.js"></script>
+      <script src="../js/classie.js"></script>
+      <script src="../js/demonav.js"></script>
       <!-- //nav menu-->
-           <script src="/rpg/web/js/timeline.min.js"></script>
+           <script src="../js/timeline.min.js"></script>
          <script>
             timeline(document.querySelectorAll('.timeline'), {
                forceVerticalMode: 700,
@@ -33,7 +33,7 @@
         
       <!-- //nav menu-->
       <!--bootstrap working-->
-      <script src="/rpg/web/js/bootstrap.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
       <!-- //bootstrap working-->
    </body>
 </html>
