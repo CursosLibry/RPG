@@ -1,4 +1,4 @@
-         <?php include_once '/RPG/web/inc/header.inc.php'; ?>
+         <?php include_once '../../inc/header.inc.php'; ?>
       <!-- banner -->
       <div class="inner_page-banner">
       </div>
@@ -83,4 +83,4 @@
                </div>
             </div>
          </section>
-                <?php include_once '/RPG/web/inc/footer.inc.php'; ?>
+                <?php include_once '../../inc/footer.inc.php'; ?>

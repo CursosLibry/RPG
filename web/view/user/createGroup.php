@@ -29,7 +29,7 @@
                <div class=" contact-wls-detail">
                   <div class="contact-form">
 
-                     <form action="/rpg/web/whatever/trataGrupo.php" method="post">
+                     <form action="../../whatever/trataGrupo.php" method="post">
                         <div class="row agile-wls-contact-mid mb-sm-3 mb-2">
                            <div class="col-lg-12 col-md-12 form-group contact-forms">
                               <input type="text" name="name" class="form-control" placeholder="Nome do Grupo" required="">

@@ -10,7 +10,7 @@
             <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Você seria?</h3>
             <div class="row">
                <div class="col-lg-6 about-txt-left">
-                  <img src="/rpg/web/images/ab1.png" alt="" class="img-fluid">
+                  <img src="../../images/ab1.png" alt="" class="img-fluid">
                </div>
                <div class="col-lg-6 about-txt-right">
                   <div class="jst-wthree-text">
@@ -22,9 +22,9 @@
                      <p class="pt-2">Se essa é a escolha, por unânimidade de todos integrantes em um sistema democrático de votos(Ou não...)<br> <spam id="mostraMenuParaMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</spam> para iniciar a sua narrativa.</p>
                   </div>
                   <div class="abut-fst-img pt-3">
-                     <img src="/rpg/web/images/ab2.jpg" alt=" " class="img-fluid">
+                     <img src="../../images/ab2.jpg" alt=" " class="img-fluid">
                      <div class="abut-secound-img">
-                        <img src="/rpg/web/images/ab3.jpg" alt=" " class="img-fluid">
+                        <img src="../../images/ab3.jpg" alt=" " class="img-fluid">
                      </div>
                   </div>
                </div>
@@ -40,14 +40,14 @@
                      <p class="pt-2">Se você ainda tem vontade de processeguir <spam id="mostraMenuParaJogador" style="cursor: pointer; font-weight: bold;">Clique aqui</spam> e comece sua jornada.</p>
                   </div>
                   <div class="abut-fst-img pt-3">
-                     <img src="/rpg/web/images/ab2.jpg" alt=" " class="img-fluid">
+                     <img src="../../images/ab2.jpg" alt=" " class="img-fluid">
                      <div class="abut-secound-img">
-                        <img src="/rpg/web/mages/ab3.jpg" alt=" " class="img-fluid">
+                        <img src="../../mages/ab3.jpg" alt=" " class="img-fluid">
                      </div>
                   </div>
                </div>
                <div class="col-lg-6 about-txt-right">
-                  <img src="/rpg/web/images/ab1.png" alt="" class="img-fluid">
+                  <img src="../../images/ab1.png" alt="" class="img-fluid">
                </div>
                
             </div>
@@ -93,7 +93,7 @@
                </div>
                <div class="col-md-4 service-icon-agile">
                   <div class="feature-inner">
-                     <h5><a href="/rpg/web/view/user/editUser.php" style="color:black;">Editar perfil</a></h5>
+                     <h5><a href="../../view/user/editUser.php" style="color:black;">Editar perfil</a></h5>
                   </div>
                   <div class="address-left text-center">
                     <a href="editUser.php""> <span class="fas fa-cubes"></span></a>
@@ -157,7 +157,7 @@
                      <h5><a href="editUser.php" style="color:black;">Editar perfil</a></h5>
                   </div>
                   <div class="address-left text-center">
-                     <a href="/rpg/web/view/user/editUser.php"><span class="fab fa-android"></span></a>
+                     <a href="../../view/user/editUser.php"><span class="fab fa-android"></span></a>
                   </div>
                   <div class="address-right">
                      <p class="pt-2">Bom, você existe né? Então nessa seção você pode editar seus dados pessoias, sua imagem de perfil e adicionar aquela frase, em seu status, que amedronta até o mais corajoso cavalheiro.
