@@ -950,9 +950,20 @@ article>div {
   color: #797272;
   line-height: 1.8em;
 }
+/* REGISTER */
+.register-section {
+  background-color: #1F3759;
+  padding: 8em 10em;
+  height: 60vh;
+}
+
+.register-leftgrid h3 {
+  font-size: 2.5em;
+  color: #fefefe;
+}
+/* END REGISTER */
 
 /*** contact***/
-
 .contact-section {
   background-color: #1F3759;
   padding: 8em 0;
@@ -1285,15 +1296,15 @@ article>div {
   height:100vh;
   margin: auto;
 }
-.contato .slides{
+main .slides{
   height: 30vh;
   min-height: auto;
 }
-.contato .slides .slide{
+main .slides .slide{
   height: 30vh;
   min-height: auto;
 }
-.contato .slides .slide .slider-up{
+main .slides .slide .slider-up{
   width: 100%;
   height: 100px;
   top: 120px;
@@ -1480,7 +1491,7 @@ article>div {
     margin-bottom: 0.4em;
     font-size: 2.4em;
   }
-  .contato .slides .slide .slider-up {
+  main .slides .slide .slider-up {
     top: 105px;
   }
   .contact-leftgrid {
@@ -1727,7 +1738,7 @@ article>div {
   .contact-leftgrid {
     padding: 0 5em;
   }
-  .contato .slides .slide .slider-up{
+  main .slides .slide .slider-up{
     top: 70px;
   }
   .header .header-top .cointainer .top-menu ul{

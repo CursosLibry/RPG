@@ -8,10 +8,17 @@ if($_GET){
    }
 }
 ?>
-      <!-- banner -->
-      <div class="inner_page-banner">
+<main class='group'>
+   <div class="slides text-center">
+      <div class="slide slide--current one-img ">
+         <div class='container'>
+               <div class="slider-up">
+                  <h4>Libry</h4>
+               </div>
+         </div>
       </div>
-      <!--//banner -->
+      <div class="clearfix"></div>
+   </div>
       <!-- Seção de Opções para o Mestre -->
       <div>
       <section class="feature-inner py-lg-4 py-md-3 py-sm-3 py-3">

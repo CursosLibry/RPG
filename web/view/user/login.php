@@ -1,19 +1,17 @@
 <?php include_once '../../inc/header.inc.php'; ?>
-<main class='contato'>
-    <div class="slides text-center">
-        <div class="slide slide--current one-img ">
-            <div class='container'>
-                <div class="slider-up">
-                    <h4>Libry</h4>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+<main class='login'>
+   <div class="slides text-center">
+      <div class="slide slide--current one-img ">
+         <div class='container'>
+               <div class="slider-up">
+                  <h4>Libry</h4>
+               </div>
+         </div>
+      </div>
+      <div class="clearfix"></div>
+   </div>
     <!--//banner-->
-    <!--Contact Section-->
+    <!--Login Section-->
    <div class="contact-section" id="contact">
       <div class="contact-grids">
          <div class="col-md-6 contact-leftgrid">
@@ -28,13 +26,11 @@
                <input type="text" placeholder="Apelido" required="">
                <input type="email" placeholder="Email" required="">
                <button type="button">Com certeza!</button>
-            </form>
-            <div style="padding: 50px 50px;" class="row agile-wls-contact-mid mb-sm-3 mb-2">
-               <div>
-                  Você ainda não existe? Mas isso é um problema <a href="register.php" style="color: black; font-weight: bold;">Clique aqui</a> agora mesmo para invocar-se!
-               </div>
-            </div>
+            </form><br>
+            <p  style="color: gray;">Você ainda não existe? Mas isso é um problema 
+            <a href="register.php" style="font-weight: bold;">Clique aqui</a> agora mesmo para invocar-se!</p>
          </div>
       </div>
    </div>
+</main>
 <?php include_once '../../inc/footer.inc.php'; ?>

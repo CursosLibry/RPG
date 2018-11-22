@@ -1,9 +1,18 @@
-<?php include_once '../../inc/header.inc.php'; ?>
-      <!-- banner -->
-      <div class="inner_page-banner">
+<?php include_once '../../inc/header.inc.php';?>
+<main class='login'>
+   <!-- banner -->
+   <div class="slides text-center">
+      <div class="slide slide--current one-img ">
+         <div class='container'>
+               <div class="slider-up">
+                  <h4>Libry</h4>
+               </div>
+         </div>
       </div>
-      <!--//banner -->
-      <!--Seção de escolha de Mestre/Jogador-->
+      <div class="clearfix"></div>
+   </div>
+   <!--//banner -->
+   <!--Seção de escolha de Mestre/Jogador-->
       <div id="secaoMestreJogadorEscolha">
       <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3">
          <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
