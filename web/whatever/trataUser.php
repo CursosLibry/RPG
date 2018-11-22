@@ -32,6 +32,5 @@ if($_POST){
 		$classe->password = $_POST['password'];
 		$classe->newInsert();
 		$classe->redirect();
-		}
 	}
 }

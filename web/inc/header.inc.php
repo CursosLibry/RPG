@@ -24,7 +24,7 @@
       </script>
       <!--//meta tags ends here-->
       <!--booststrap-->
-      <link href="/rpg/web/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <link href="/rpg/web/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
       <!--//booststrap end-->
       <!-- font-awesome icons -->
       <link href="/rpg/web/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
@@ -33,7 +33,7 @@
       <link href="/rpg/web/css/style.css" rel='stylesheet' type='text/css' media="all">
       <!--//stylesheets-->
       <!-- Nav-CSS -->	
-      <script src="/rpg/web/js/jquery-2.2.3.min.js"></script>      
+      <script src="/rpg/web/js/jquery-2.2.3.min.js"></script>
       <script src="/rpg/web/js/index.js"></script>
       <link href="/rpg/web/css/nav.css" rel="stylesheet" type="text/css" media="all" />
       <script src="/rpg/web/js/modernizr.custom.js"></script>
@@ -44,41 +44,36 @@
       <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
    </head>
    <body>
-      <!--headder-->
-      <div class="header-outs">
-         <div class="header-w3layouts">
-            <div class="container">
-               <div class="right-side">
-                  <p>
-                     <button id="trigger-overlay" type="button">
-                     <span class="fa fa-bars" aria-hidden="true"></span>
-                     </button>
-                  </p>
+   <body>
+   <!--Body start-->
+   <div class="header" id="head">
+      <div class="header-top">
+         <div class="container">
+            <div class="top-menu">
+               <div id="nav-icon3" class="menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
                </div>
-               <!-- open/close -->
-               <div class="overlay overlay-hugeinc">
-                  <button type="button" class="overlay-close">Close</button>
-                  <nav>
-                     <ul>
-                        <li><a href="/rpg/web/view/index.php" >Home</a></li>
-                        <li><a href="/rpg/web/view/about.php" >About</a></li>
-                        <li><a href="/rpg/web/view/history.php" >History</a></li>
-                        <li><a href="/rpg/web/view/hero.php" >Avatar</a></li>
-                        <li><a href="/rpg/web/view/gallery.php" >Gallery</a></li>
-                        <li><a href="/rpg/web/view/contact.php"  >Contact</a></li>
-                        <li><a href="/rpg/web/view/user/login.php"  >Usuário</a></li>
-                     </ul>
-                  </nav>
-               </div>
-               <div class="hedder-logo">
-                  <h1><a href="/rpg/web/index.php">   
-                     <img src="/rpg/web/images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
-                  </h1>
-               </div>
-               <!-- /open/close -->
-               <!-- /navigation section -->
+               <!--Menu-->
+               <ul id='menu_div'>
+                  <li><a href="/rpg/web/view/index.php" class="scroll">Home</a></li>
+                  <li><a href="/rpg/web/view/index.php#about" class="scroll">Sobre</a></li>
+                  <li><a href="/rpg/web/view/contact.php" class="scroll">Contato</a></li>
+                  <li><a href="/rpg/web/view/user/login.php" class="scroll" >Usuário</a></li>
+               </ul>
+               <!--End Menu-->
             </div>
+            <!--script-nav-->
+            <script>
+               $("span.menu").click(function () {
+                  $(".top-menu ul").slideToggle("slow", function () {
+                  });
+               });
+            </script>
             <div class="clearfix"> </div>
          </div>
       </div>
-      <!--//headder-->
+   </div>
+   <!--End Slider Section-->
