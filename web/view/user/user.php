@@ -12,185 +12,251 @@
       <div class="clearfix"></div>
    </div>
    <!--//banner -->
-   <!--Seção de escolha de Mestre/Jogador-->
-      <div id="secaoMestreJogadorEscolha">
-      <section class="about-inner py-lg-4 py-md-3 py-sm-3 py-3">
-         <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
-            <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Você seria?</h3>
-            <div class="row">
-               <div class="col-lg-6 about-txt-left">
-                  <img src="../../images/ab1.png" alt="" class="img-fluid">
+   <section class='about' id="about">
+      <div class="content">
+      <!--Content Section-->
+         <div class="about-section" >
+            <!-- About Libry-->
+            <div class="about-grids">
+               <div class="col-md-12" style="padding: 30px 0;">
+                  <div class="container" style="text-align: center;">
+                     <h3 style="color: #fac832; font-weight: 700; font-size: 3.5em; font-family: 'Cinzel Decorative', cursive;">VOCÊ SERIA?</h3>
+                  </div>
                </div>
-               <div class="col-lg-6 about-txt-right">
-                  <div class="jst-wthree-text">
-                     <h2> Um grandioso Mestre</h2>
+               <div class="col-md-6 left-grid">
+                  <div class="right-grid1-icon">
+                     <!-- <img src="/rpg/web/images/icon.png"> -->
+                     <!--Put your Central Icon HERE-->
                   </div>
-                  <div class="info-sub-w3">
-                     <p>Então você foi o escolhido para mestrar a história, fique preparado para criar ambientes ricos em detalhes, inimigos mais inteligentes do que trolls, uma narrativa cativante que faça até o mais entendiado se sentir um verdadeiro Bárbaro.  
+                  <div class="img" style="background-image: url('/rpg/web/images/pic1.gif')"></div>
+                  <!--Put your Right Image HERE-->
+               </div>
+               <div class="col-md-6 right-grid" style="background-color: white; height: 600px;">
+                  <div class="right-top">
+                     <h3 style="color: black;">Um grandioso Mestre</h3>
+                     <p style="color: black;">
+                        Então você foi o escolhido para mestrar a história, fique preparado 
+                        para criar ambientes ricos em detalhes, inimigos mais inteligentes 
+                        do que trolls, uma narrativa cativante que faça até o mais entendiado 
+                        se sentir um verdadeiro Bárbaro.  
                      </p>
-                     <p class="pt-2">Se essa é a escolha, por unânimidade de todos integrantes em um sistema democrático de votos(Ou não...)<br> <span id="mostraMenuParaMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para iniciar a sua narrativa.</p>
-                  </div>
-                  <div class="abut-fst-img pt-3">
-                     <img src="../../images/ab2.jpg" alt=" " class="img-fluid">
-                     <div class="abut-secound-img">
-                        <img src="../../images/ab3.jpg" alt=" " class="img-fluid">
+                     <p style="color: black;" class="lable1">
+                        Se essa é a escolha, por unânimidade de todos integrantes em um sistema
+                        democrático de votos(ou não...), clique no botão abaixo para iniciar a sua narrativa.
+                     </p>
+                     <br>
+                     <br>
+                     <div class="outs_more-buttn">
+                        <button id="mostraMenuParaMestre">Iniciar Narrativa</button>
                      </div>
                   </div>
                </div>
+               <div class="clearfix"> </div>
             </div>
-            <br><br><br>
-            <div class="row">
-               <div class="col-lg-6 about-txt-left">
-                  <div class="jst-wthree-text">
-                     <h2> Ou um lendário Jogador</h2>
-                  </div>
-                  <div class="info-sub-w3">
-                     <p>Se prepare para traçar sua jornada em diversos universos, em épocas diferentes, com os mais variados oponentes e vilões, ou se prepare para aguentar aquele amigo que sempre tira 1 no d20 e estraga a estratégia d otime inteiro em uma única ação.</p>
-                     <p class="pt-2">Se você ainda tem vontade de processeguir <span id="mostraMenuParaJogador" style="cursor: pointer; font-weight: bold;">Clique aqui</span> e comece sua jornada.</p>
-                  </div>
-                  <div class="abut-fst-img pt-3">
-                     <img src="../../images/ab2.jpg" alt=" " class="img-fluid">
-                     <div class="abut-secound-img">
-                        <img src="../../mages/ab3.jpg" alt=" " class="img-fluid">
+         </div>
+         <div class="about-section">
+            <!-- About D&D -->
+            <div class="about-grids">
+               <div class="col-md-6 left-grid">
+                  <div class="right-top">
+                     <h3>Um lendário Jogador</h3>
+                     <p>
+                        Se prepare para traçar sua jornada em diversos universos, em épocas diferentes, com 
+                        os mais variados oponentes e vilões, ou se prepare para aguentar aquele amigo que 
+                        sempre tira 1 no d20 e estraga a estratégia do time inteiro em uma única ação.
+                     </p>
+                     <p class="lable1">
+                        Se você ainda tem vontade de prosseguir, clique no botão abaixo para iniciar a sua narrativa.
+                     </p>
+                     <br>
+                     <br>
+                     <div class="outs_more-buttn">
+                        <button id="mostraMenuParaJogador">Inicie sua Jornada</button>
                      </div>
                   </div>
                </div>
-               <div class="col-lg-6 about-txt-right">
-                  <img src="../../images/ab1.png" alt="" class="img-fluid">
+               <div class="col-md-6 right-grid" >
+                  <div class="img" style="height: 600px; background-image: url('/rpg/web/images/pic2.jpg')"></div>
+                  <!--Put your Right Image HERE-->
                </div>
-               
+               <div class="clearfix"> </div>
             </div>
          </div>
-      </section>
       </div>
-
-
-
-      <!-- Seção de Opções para o Mestre -->
-      <div id="secaoMestre">
-      <section class="feature-inner py-lg-4 py-md-3 py-sm-3 py-3">
-         <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
-            <h3 class="title text-center clr mb-lg-5 mb-md-4 mb-sm-4 mb-3">Crie sua narrativa</h3>
-
-            <div class="row text-center mt-lg-4 mt-md-3 mt-3">
-
-                <div class="row text-center mt-lg-4 mt-md-3 mt-3">
-                  <div class="col-md-4 service-icon-agile">
-                  <div class="feature-inner">
-                     <h5>Grupos de RPG</h5>
-                  </div>
-                  <div class="address-left text-center">
-                     <a href="createGroup.php"><span class="fas fa-cubes"></span></a>
-                  </div>
-                  <div class="address-right">
-                     <p class="pt-2">Aqui você pode acessar os grupos de RPG que você faz parte. Se você não tem nenhum grupo é um ótimo lugar para começar então. Os grupos de RPG são os espaços em que estarão os grupos(obviamente) com suas respectivas histórias previamente criadas e também suas fichas, uma vez que todos engressarem no grupo o mestre pode fechá-lo e começar o jogo.
-                     </p>
-
-                  </div>
-               </div>
-               <div class="col-md-4 service-icon-agile">
-                  <div class="feature-inner ">
-                     <h5>Histórico de Grupos</h5>
-                  </div>
-                  <div class="address-left text-center">
-                     <span class="fab fa-asymmetrik"></span>
-                  </div>
-                  <div class="address-right">
-                     <p class="pt-2">Uma vez dentro nunca mais fora, ou pelo menos até você clicar em sair. Aqui você pode ver os que você engressou e ainda não chutou o ba... quer dizer, que ainda não saiu.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4 service-icon-agile">
-                  <div class="feature-inner">
-                     <h5><a href="../../view/user/editUser.php" style="color:black;">Editar perfil</a></h5>
-                  </div>
-                  <div class="address-left text-center">
-                    <a href="editUser.php""> <span class="fas fa-cubes"></span></a>
-                  </div>
-                  <div class="address-right">
-                     <p class="pt-2">Bom, você existe né? Então nessa seção você pode editar seus dados pessoias, sua imagem de perfil e adicionar aquela frase, em seu status, que amedronta até o mais corajoso cavalheiro.
-                     </p>
-
-                  </div>
-               </div>
-            </div>
+   <!-- END CONTENT -->
+   </section>
+</main>
+<main id="secaoMestre">
+   <section class='equipe'>
+      <div class="services-section" id="service">
+         <div class="col-md-12" style="padding: 30px 0;">
+            <div class="container" style="text-align: center;">
+               <h3 style="color: #fac832; font-weight: 700; font-size: 3.5em; 
+               font-family: 'Cinzel Decorative', cursive;">Crie Sua Narrativa</h3>
             </div>
          </div>
-         <div class="row" style="border: 1px solid #ffffff;">
-      <div class="col-md-12 col-lg-12 col-sm-12 text-center">
-               <br>
-            Mudou de ideia? Nunca fui chegado com que Mestra mesmo <span id="mostraSessãoInicialMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para escolher novamente.
-            <p>&nbsp</p>
-          
-         </div>
-      </div>  
-      </section>
-   
-     
-      </div>
-
-
-
-    <!-- Seção de Opções para o Jogador -->
-      <div id="secaoJogador">
-      <section class="feature-inner py-lg-4 py-md-3 py-sm-3 py-3">
-         <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
-            <h3 class="title text-center clr mb-lg-5 mb-md-4 mb-sm-4 mb-3">Trace sua jornada</h3>
-            <div class="row text-center">
-               <div class="col-md-4 service-icon-agile">
-                  <div class="feature-inner ">
-                     <h5>Grupos de RPG</h5>
+         <!-- Opções MESTRE -->
+         <div class="centralize col-md-9">
+            <!-- GRUPO RPG -->
+            <div class="col-md-4 service-leftgrid">
+               <div class="service1">
+                  <div class="right-grid1">
+                     <img src="../../images/img1.png">
                   </div>
-                  <div class="address-left text-center">
-                     <span class="fab fa-asymmetrik"></span>
-                  </div>
-                  <div class="address-right">
-                     <p class="pt-2">Aqui você pode acessar os grupos de RPG que você faz parte. Se você não tem nenhum grupo é um ótimo lugar para começar então. Os grupos de RPG são os espaços em que estarão os grupos(obviamente) com suas respectivas histórias previamente criadas e também suas fichas, uma vez que todos engressarem no grupo o mestre pode fechá-lo e começar o jogo.
+                  <div class="right-grid2">
+                     <br>
+                     <h4>Grupos de RPG</h4>
+                     <p>
+                        Aqui você pode acessar os grupos de RPG que você faz parte. 
+                        Se você não tem nenhum grupo é um ótimo lugar para começar então.
+                        Os grupos de RPG são os espaços em que estarão os grupos (obviamente)
+                        com suas respectivas histórias previamente criadas e também suas 
+                        fichas, uma vez que todos engressarem no grupo o mestre pode fechá-lo
+                        e começar o jogo.
                      </p>
                   </div>
+                  <div class="clearfix"> </div>
                </div>
-               <div class="col-md-4 service-icon-agile">
-                  <div class="feature-inner ">
-                     <h5>Histórico de Grupos</h5>
-                  </div>
-                  <div class="address-left text-center">
-                     <span class="fab fa-asymmetrik"></span>
-                  </div>
-                  <div class="address-right">
-                     <p class="pt-2">Uma vez dentro nunca mais fora, ou pelo menos até você clicar em sair. Aqui você pode ver os que você engressou e ainda não chutou o ba... quer dizer, que ainda não saiu.
-                     </p>
-                  </div>
-               </div>
-               <div class="col-md-4 service-icon-agile">
-                  <div class="feature-inner">
-                     <h5><a href="editUser.php" style="color:black;">Editar perfil</a></h5>
-                  </div>
-                  <div class="address-left text-center">
-                     <a href="../../view/user/editUser.php"><span class="fab fa-android"></span></a>
-                  </div>
-                  <div class="address-right">
-                     <p class="pt-2">Bom, você existe né? Então nessa seção você pode editar seus dados pessoias, sua imagem de perfil e adicionar aquela frase, em seu status, que amedronta até o mais corajoso cavalheiro.
-                     </p>
-                  </div>
-               </div>
-              
             </div>
-           </div>
-         <div class="row"  style="border: 1px solid #ffffff">
-         
-         <div class="col-md-12 col-lg-12 col-sm-12 text-center">
-               <br>
-            Mudou de ideia? Eu sempre gostei mais de quem Mestra mesmo <span id="mostraSessãoInicialJogador" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para escolher novamente.
-            <p>&nbsp</p>
-          
+            <!-- HISTORICO GRUPOS -->
+            <div class="col-md-4 service-leftgrid">
+               <div class="service1">
+                  <div class="right-grid1">
+                     <img src="../../images/img3.png">
+                  </div>
+                  <div class="right-grid2">
+                     <h4>Histórico de Grupos</h4>
+                     <p>
+                        Uma vez dentro nunca mais fora, ou pelo menos até você clicar em sair. 
+                        Aqui você pode ver os que você engressou e ainda não chutou o ba... 
+                        quer dizer, que ainda não saiu.
+                     </p>
+                  </div>
+                  <div class="clearfix"> </div>
+               </div>
+            </div>
+            <!-- EDITAR PERFIL -->
+            <div class="col-md-4 service-rightgrid">
+               <div class="service1">
+                  <div class="right-grid1">
+                     <img src="../../images/img2.png">
+                  </div>
+                  <div class="right-grid2">
+                     <h4>
+                        <a href="../../view/user/editUser.php" style="color: #fff;
+                        font-weight: 700;">Editar perfil</a></h4>
+                     <p>
+                        Bom, você existe né? Então nessa seção você pode editar seus dados pessoias,
+                        sua imagem de perfil e adicionar aquela frase, em seu status, que amedronta
+                        até o mais corajoso cavalheiro.
+                     </p>
+                  </div>
+                  <div class="clearfix"> </div>
+               </div>
+            </div>
+            <div class="clearfix"> </div>
          </div>
-         
-      </div>  
-      </section>
-   
-      
+         <!-- END OPCOES MESTRE -->
       </div>
-      <div id="secaoFooter">
-         <?php include_once '../../inc/footer.inc.php'; ?>
+   </section>
+   <section class="return">
+      <div class="col-md-12 centralize">
+         <p>
+            Mudou de ideia? Nunca fui chegado com quem Mestra mesmo.
+         </p> 
+         <p>
+            <span id="mostraSessãoInicialMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para escolher novamente.
+         </p>
       </div>
-      <script src="../../js/funcoesIndexUser.js"></script>
+   </section>
+</main>
+<main id="secaoJogador">
+   <section class='equipe'>
+      <div class="services-section" id="service">
+         <div class="col-md-12" style="padding: 30px 0;">
+            <div class="container" style="text-align: center;">
+               <h3 style="color: #fac832; font-weight: 700; font-size: 3.5em;
+               font-family: 'Cinzel Decorative', cursive;">Trace  Sua  Jornada</h3>
+            </div>
+         </div>
+         <div class="centralize col-md-9">
+            <!-- HISTORIA -->
+            <div class="col-md-4 service-leftgrid">
+               <div class="service1">
+                  <div class="right-grid1">
+                     <img src="../../images/img1.png">
+                  </div>
+                  <div class="right-grid2">
+                     <br>
+                     <h4>Grupos de RPG</h4>
+                     <p>
+                        Aqui você pode acessar os grupos de RPG que você faz parte. 
+                        Se você não tem nenhum grupo é um ótimo lugar para começar então.
+                        Os grupos de RPG são os espaços em que estarão os grupos (obviamente)
+                        com suas respectivas histórias previamente criadas e também suas 
+                        fichas, uma vez que todos engressarem no grupo o mestre pode fechá-lo
+                        e começar o jogo.
+                     </p>
+                  </div>
+                  <div class="clearfix"> </div>
+               </div>
+            </div>
+            <!-- END HISTORIA -->
+            <!-- FICHA -->
+            <div class="col-md-4 service-leftgrid">
+               <div class="service1">
+                  <div class="right-grid1">
+                     <img src="../../images/img3.png">
+                  </div>
+                  <div class="right-grid2">
+                     <h4>Histórico de Grupos</h4>
+                     <p>
+                        Uma vez dentro nunca mais fora, ou pelo menos até você clicar em sair. 
+                        Aqui você pode ver os que você engressou e ainda não chutou o ba... 
+                        quer dizer, que ainda não saiu.
+                     </p>
+                  </div>
+                  <div class="clearfix"> </div>
+               </div>
+            </div>
+            <!-- END FICHA -->
+            <!-- HABILIDADE -->
+            <div class="col-md-4 service-rightgrid">
+               <div class="service1">
+                  <div class="right-grid1">
+                     <img src="../../images/img2.png">
+                  </div>
+                  <div class="right-grid2">
+                     <h4>
+                        <a href="../../view/user/editUser.php" style="color: #fff;
+                        font-weight: 700;">Editar perfil</a></h4>
+                     <p>
+                        Bom, você existe né? Então nessa seção você pode editar seus dados pessoias,
+                        sua imagem de perfil e adicionar aquela frase, em seu status, que amedronta
+                        até o mais corajoso cavalheiro.
+                     </p>
+                  </div>
+                  <div class="clearfix"> </div>
+               </div>
+            </div>
+            <!-- END HABILIDADE -->
+            <div class="clearfix"> </div>
+         </div>
+      </div>
+      <!--END EQUIPE-->
+   </section>
+   <section class="return">
+      <div class="col-md-12 centralize">
+         <p>
+            Mudou de ideia? Sempre gostei mais de quem Mestra mesmo.
+         </p> 
+         <p>
+            <span id="mostraSessãoInicialMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para escolher novamente.
+         </p>
+      </div>
+   </section>
+</main>
+<div id="secaoFooter">
+   <?php include_once '../../inc/footer.inc.php'; ?>
+</div>
+<script src="../../js/funcoesIndexUser.js"></script>

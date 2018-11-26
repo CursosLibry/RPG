@@ -249,7 +249,19 @@ ul.callbacks_tabs.callbacks1_tabs {
   text-transform: uppercase;
   font-family: 'Cinzel Decorative', cursive;
 }
-
+.opacity{
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+.opacity:hover{
+  opacity: 0.6;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
 .right-top {
   width: 60%;
   margin: 0 auto 7em;
@@ -275,10 +287,14 @@ p.lable1 {
 .services-section {
   background: url("../images/banner1.jpg") no-repeat;
   background-size: cover;
+  height: 55vh;
   min-height: 500px;
   padding: 9em 0;
 }
-
+main.group .services-section{
+  background-image: unset;
+  background-color: #1F3759;
+}
 .service-leftgrid h3 {
   font-size: 2.5em;
   color: #fff;
@@ -338,7 +354,7 @@ p.lable1 {
 }
 
 .service2 {
-  padding: 4em 0;
+  padding: 10em 0;
 }
 
 .portfolio-header {
@@ -987,7 +1003,7 @@ article>div {
   margin-bottom: 2.2em;
 }
 
-.contact-leftgrid input[type="text"] {
+input[type="text"] {
   width: 100%;
   padding: 15px 24px;
   border: 1px solid #969696;
@@ -1262,7 +1278,9 @@ article>div {
 /*-- responsive-mediaquries --*/
 
 /* CUSTOMIZATION */
-  /*--- slider-css --*/
+/* CUSTOMIZATION */
+/* CUSTOMIZATION */
+
 .about-grids{
   background-color: #1F3759;
 }
@@ -1311,6 +1329,9 @@ main .slides .slide .slider-up{
   text-align: left;
   min-height: auto;
 }
+main.edit_password section.return div{
+  background-color: white;
+}
 .slide {
   position: absolute;
   width: 100%;
@@ -1349,6 +1370,25 @@ main .slides .slide .slider-up{
   background-image: url(../images/pic2.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.centralize{
+  left: 50%;
+  transform: translate(-50%);
+}
+.centralize_margin{
+  margin: 0px auto;
+}
+section.return div{
+  margin-bottom: 30px;
+  padding: 10px 0;
+  background-color: #fff;
+
+}
+section.return div p{
+  font-size: 14px;
+  color: gray;
+  text-align: center;
 }
 .pagination {
   /*align-self: end;*/
@@ -1436,8 +1476,18 @@ main .slides .slide .slider-up{
   background:  rgba(0, 0, 0, 0.41);
   color: #fff;
 }
-/*-- //slider-css --*/
+section.trocar_senha .contact-section{
+  min-height: 55vh;
+}
+section.trocar_senha .contact-leftgrid h3{
+  margin: 20px 0;
+}
+
+
 /* END CUSTOMIZATION */
+/* END CUSTOMIZATION */
+
+
 @media(max-width:1440px) {
   .about-grids .right-grid{
     margin-top: 0px !important;
