@@ -2,50 +2,51 @@ $( document ).ready(function(){
 	$('#secaoMestre').hide();
 	$('#secaoJogador').hide();
 		$('#mostraMenuParaMestre').click(function(){
-			$('#secaoFooter').hide();
-			$('#secaoMestreJogadorEscolha').slideUp("slow", function(){
+			$('#secaoMestreJogadorEscolha').fadeOut("medium", function(){
 				$('#secaoMestreJogadorEscolha').hide();
-				$('#secaoMestre').slideDown('slow', function(){
-					$('#secaoFooter').show();
-				});
+				$("#sera").hide();
+				$('#secaoMestre').fadeIn('medium');
 				$('#secaoMestre').show();
 				$('#secaoJogador').hide();
-				;
+				$("#narrativa").fadeIn('fast');
 			});
+			// $("#jornada").fadeIn('medium');
 		});
 
 		$('#mostraMenuParaJogador').click(function(){
-			$('#secaoFooter').hide()
-			$('#secaoMestreJogadorEscolha').slideUp('slow', function(){
+			$('#escolhaMestreJogador').fadeOut("medium", function(){
+				$('#escolhaMestreJogador').hide();
+				;
+			});
+			$('#secaoMestreJogadorEscolha').fadeOut('medium', function(){
 				$('#secaoMestreJogadorEscolha').hide();
-				$('#secaoJogador').slideDown('slow', function(){
-					$('#secaoFooter').show();
-				});
+				$("#sera").hide();
+				$('#secaoJogador').fadeIn('medium');
 				$('#secaoJogador').show();
+				$("#jornada").fadeIn('fast');
 			});
 			$('#secaoMestre').hide();
 		});
 
 		$('#mostraSessãoInicialMestre').click(function(){
-			$('#secaoFooter').hide();
-			$('#secaoJogador').slideUp('slow', function(){
+			$("#narrativa")
+			$('#secaoJogador').fadeOut('medium', function(){
 				$('#secaoJogador').hide();
-				$('#secaoMestreJogadorEscolha').slideDown('slow', function(){
-					$('#secaoFooter').show();
-				});
+				$("#narrativa").hide();
+				$('#secaoMestreJogadorEscolha').fadeIn('medium');
 				$('#secaoMestreJogadorEscolha').show();
+				$("#sera").fadeIn('fast');
 			});
 			$('#secaoMestre').hide();
 		});
 
 		$('#mostraSessãoInicialJogador').click(function(){
-			$('#secaoFooter').hide();
-			$('#secaoMestre').slideUp('slow', function(){
+			$('#secaoMestre').fadeOut('medium', function(){
 				$('#secaoMestre').hide();
-				$('#secaoMestreJogadorEscolha').slideDown('slow', function(){
-					$('#secaoFooter').show();
-				});
+				$("#jornada").hide();
+				$('#secaoMestreJogadorEscolha').fadeIn('medium');
 				$('#secaoMestreJogadorEscolha').show();
+				$("#sera").fadeIn('fast');
 			});
 			$('#secaoJogador').hide();
 		});

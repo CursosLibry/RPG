@@ -67,6 +67,27 @@ mark {
   color: #000;
   background: #ff0;
 }
+select{
+  width: 100%;
+  border: none;
+  border-radius: none;
+  height: 50px;
+  border: 1px solid #969696;
+  background: #545454;
+  margin-bottom: 1.2em;
+  color: #7e7d7d;
+  font-size: 1.3em;
+  padding: 15px 24px;
+}
+select option,
+select:checked{
+  opacity: 0.8;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
 small {
   font-size: 80%;
 }
@@ -110,7 +131,6 @@ samp {
 button,
 input,
 optgroup,
-select,
 textarea {
   margin: 0;
   font: inherit;
@@ -314,7 +334,6 @@ body {
 }
 input,
 button,
-select,
 textarea {
   font-family: inherit;
   font-size: inherit;

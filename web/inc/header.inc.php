@@ -59,7 +59,6 @@
                <!--Menu-->
                <ul id='menu_div'>
                   <li><a href="/rpg/web/view/index.php" class="scroll">Home</a></li>
-                  <li><a href="/rpg/web/view/index.php#about" class="scroll">Sobre</a></li>
                   <li><a href="/rpg/web/view/contact.php" class="scroll">Contato</a></li>
                   <li><a href="/rpg/web/view/user/login.php" class="scroll" >Usuário</a></li>
                </ul>

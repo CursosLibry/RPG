@@ -1,5 +1,5 @@
 <?php include_once '../../inc/header.inc.php';?>
-<main class='login'>
+<main class="banner_small">
    <!-- banner -->
    <div class="slides text-center">
       <div class="slide slide--current one-img ">
@@ -12,17 +12,29 @@
       <div class="clearfix"></div>
    </div>
    <!--//banner -->
-   <section class='about' id="about">
+</main>
+<div id="sera" class="col-md-12" style="position: absolute;background-color: transparent;top: 20vh;">
+    <div class="container" style="text-align: center;">
+        <h3 style="color: #fff; font-weight: 700; font-size: 3.5em; font-family: 'Cinzel Decorative', cursive;">VOCÊ SERÁ?</h3>
+    </div>
+</div>
+<div id="jornada" class="col-md-12" style="position: absolute; display:none; background-color: transparent;top: 20vh;">
+    <div class="container" style="text-align: center;">
+        <h3 style="color: #fff; font-weight: 700; font-size: 3.5em; font-family: 'Cinzel Decorative', cursive;">Trace  Sua  Jornada</h3>
+    </div>
+</div>
+<div id="narrativa" class="col-md-12" style="position: absolute; display:none; background-color: transparent;top: 20vh;">
+    <div class="container" style="text-align: center;">
+        <h3 style="color: #fff; font-weight: 700; font-size: 3.5em; font-family: 'Cinzel Decorative', cursive;">Crie Sua Narrativa</h3>
+    </div>
+</div>
+<main id="secaoMestreJogadorEscolha">
+   <section class='about'>
       <div class="content">
       <!--Content Section-->
          <div class="about-section" >
             <!-- About Libry-->
             <div class="about-grids">
-               <div class="col-md-12" style="padding: 30px 0;">
-                  <div class="container" style="text-align: center;">
-                     <h3 style="color: #fac832; font-weight: 700; font-size: 3.5em; font-family: 'Cinzel Decorative', cursive;">VOCÊ SERIA?</h3>
-                  </div>
-               </div>
                <div class="col-md-6 left-grid">
                   <div class="right-grid1-icon">
                      <!-- <img src="/rpg/web/images/icon.png"> -->
@@ -251,7 +263,7 @@
             Mudou de ideia? Sempre gostei mais de quem Mestra mesmo.
          </p> 
          <p>
-            <span id="mostraSessãoInicialMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para escolher novamente.
+            <span id="mostraSessãoInicialJogador" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para escolher novamente.
          </p>
       </div>
    </section>
