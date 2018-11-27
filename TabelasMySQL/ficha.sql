@@ -23,13 +23,13 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `rpggroup`
+-- Table structure for table `ficha`
 --
 
-CREATE TABLE `rpggroup` (
+CREATE TABLE `ficha` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `password` varchar(255) COLLATE utf8_unicode_ci
+  `html` text COLLATE utf8_unicode_ci NOT NULL,
+  `id_user` varchar(255) COLLATE utf8_unicode_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
@@ -37,9 +37,9 @@ CREATE TABLE `rpggroup` (
 --
 
 --
--- Indexes for table `rpggroup`
+-- Indexes for table `ficha`
 --
-ALTER TABLE `rpggroup`
+ALTER TABLE `ficha`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -47,9 +47,9 @@ ALTER TABLE `rpggroup`
 --
 
 --
--- AUTO_INCREMENT for table `rpggroup`
+-- AUTO_INCREMENT for table `ficha`
 --
-ALTER TABLE `rpggroup`
+ALTER TABLE `ficha`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
