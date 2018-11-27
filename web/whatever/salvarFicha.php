@@ -27,10 +27,11 @@ $form_html = $form->getHTML();
 
 
 var_dump($form_html);
-
+$id_user = $_SESSION['id_user'];
+$id_rpggroup = $_SESSION['id_rpggroup'];
 //Salva No Banco
 $classe = new FormSave();
-$classe->insert($form_html);
+$classe->insert($form_html, $id_user, $id_rpggroup);
 $classe->redirect();
 }else{
 	header("location: ../view/user/createFicha.php");

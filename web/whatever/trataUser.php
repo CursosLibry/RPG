@@ -14,6 +14,8 @@ if($_POST){
 		$classe->password = $_POST['user_pass'];
 		if($classe->validateInsert()){
 			$classe->insert();
+			$obj = $classe->lastInserted();
+			$_SESSION["id_user"] = $obj->id;
 			$_SESSION["user_nick"] = $_POST['user_nick'];
 			$classe->redirect();
 		}else{
@@ -26,6 +28,8 @@ if($_POST){
 		$classe->password = $_POST['user_pass'];
 		if($classe->validateLogin()){
 			$_SESSION["user_nick"] = $_POST['user_nick'];
+			$obj = $classe->lastInserted();
+			$_SESSION["id_user"] = $obj->id;
 			$classe->redirect();
 		}else{
 			header("location: ../view/user/login.php?err=pass2");

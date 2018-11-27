@@ -2,7 +2,8 @@
 if(!isset($_SESSION["user_nick"]) || $_SESSION["user_nick"] == null || $_SESSION["user_nick"] == '' || $_SESSION["user_nick"] == " " || $_SESSION["user_nick"] == false){
     header("location: semPermissao.php");
 }
- include_once '../../inc/header.inc.php';?>
+ include_once '../../inc/header.inc.php';
+  include_once '../../config/autoload.php';?>
          <?php
          if($_GET){
           if($_GET['err']){
@@ -20,6 +21,8 @@ if(!isset($_SESSION["user_nick"]) || $_SESSION["user_nick"] == null || $_SESSION
                 break;
             }
           }
+
+          
          }
          ?>
       <!-- banner -->
@@ -29,7 +32,7 @@ if(!isset($_SESSION["user_nick"]) || $_SESSION["user_nick"] == null || $_SESSION
          <!--headder-->
          <section class="contact-inner py-lg-4 py-md-3 py-sm-3 py-3">
             <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
-               <h3 class="title text-center  mb-lg-5 mb-md-4 mb-sm-4 mb-3">Crie seu Grupo de RPG</h3>
+               <h3 class="title text-center  mb-lg-5 mb-md-4 mb-sm-4 mb-3">Crie seu Grupo de RPG... <a href="#group-access"><i style="color: black;" class="fas fa-angle-double-down"></i></a></h3>
                <div class=" contact-wls-detail">
                   <div class="contact-form">
 
@@ -65,6 +68,43 @@ if(!isset($_SESSION["user_nick"]) || $_SESSION["user_nick"] == null || $_SESSION
                </div>
             </div>
          </section>
+<hr>
+
+
+
+         <section class="contact-inner py-lg-4 py-md-3 py-sm-3 py-3">
+            <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
+               <h3 id="group-access" class="title text-center  mb-lg-5 mb-md-4 mb-sm-4 mb-3">...Ou, Acesse seus grupos</h3>
+               <div class=" contact-wls-detail">
+                  <div class="contact-form">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-2 form-group contact-forms"></div>
+                      <div class="col-lg-8 col-md-8 form-group contact-forms">
+<a href="../../whatever/buscaGroupTable.php"><i style="color: black;" class="fas fa-undo align-on-table"></i></a>
+<table border="1px" class="table_groups">
+  <thead>
+    <th>Nome</th>
+    <th>Senha</th>
+    <th>Ação</th>
+  </thead>
+  <tbody>
+    <?php
+if(!isset($_SESSION['html_table'])){
+  header("location: /rpg/web/whatever/buscaGroupTable.php");
+}
+echo $_SESSION['html_table'];
+
+    ?>
+  </tbody>
+</table>
+</div>
+<div class="col-lg-2 col-md-2 form-group contact-forms"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
 
          <script>
             $("#senha-grupo").css("display", "none");

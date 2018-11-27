@@ -1240,3 +1240,42 @@ footer{background:#000;}
 }
 
 /* END OF SWITCH BUTTON*/
+
+
+/* TABLE ON CREATEGROUP */
+
+.table_groups{
+  text-align: center; 
+  left: 50%;
+  transform: translateX(-50%);
+  /*position: absolute;*/
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.align-on-table{
+    padding-left: 30%;
+}
+
+table {
+  border-collapse: collapse;
+}
+ th {
+  background: #ccc;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #d1d1d1;
+}
+
+
+/* END OF TABLE ON CREATEGROUP */
