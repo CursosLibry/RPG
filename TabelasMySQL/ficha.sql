@@ -29,7 +29,8 @@ SET time_zone = "+00:00";
 CREATE TABLE `ficha` (
   `id` int(11) NOT NULL,
   `html` text COLLATE utf8_unicode_ci NOT NULL,
-  `id_user` varchar(255) COLLATE utf8_unicode_ci
+  `id_user` int(11) COLLATE utf8_unicode_ci,
+  `id_rpggroup` int(11) COLLATE utf8_unicode_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --

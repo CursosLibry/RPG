@@ -1,5 +1,21 @@
 <?php
 session_start();
+
+if($_GET){
+	if($_GET['model']){
+		switch ($_GET['model']) {
+			case 'libry':
+				# code...
+				break;
+			
+			default:
+				# code...
+				break;
+		}
+		die();
+	}
+	die();
+}
 // require_once "../model/Formulario.class.php";
 // require_once "../model/Text.class.php";
 // require_once "../model/Textarea.class.php";
