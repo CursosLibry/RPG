@@ -88,6 +88,25 @@ class User extends Model{
 // para o futuro tratamento de erros
         }
     }
+
+
+
+
+        public function lastInserted(){ // query for the group
+        try{
+            $c = $this->conn->prepare("SELECT * FROM user WHERE nick = :nick ");
+            $c->bindValue(':nick',$this->nick,PDO::PARAM_STR);
+            $c->execute();
+            $arr = $c->fetchAll(PDO::FETCH_CLASS, "User");
+            return $arr[0];
+        }catch(Exception $e){
+// para o futuro tratamento de erros
+        }
+    }
+
+
+
+
 }
 
 
