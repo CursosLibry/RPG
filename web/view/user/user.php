@@ -19,7 +19,7 @@
                   <div class="info-sub-w3">
                      <p>Então você foi o escolhido para mestrar a história, fique preparado para criar ambientes ricos em detalhes, inimigos mais inteligentes do que trolls, uma narrativa cativante que faça até o mais entendiado se sentir um verdadeiro Bárbaro.  
                      </p>
-                     <p class="pt-2">Se essa é a escolha, por unânimidade de todos integrantes em um sistema democrático de votos(Ou não...)<br> <span id="mostraMenuParaMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para iniciar a sua narrativa.</p>
+                     <p class="pt-2">Se essa é a escolha, por unânimidade de todos integrantes em um sistema democrático de votos(Ou não...)<br> <spam id="mostraMenuParaMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</spam> para iniciar a sua narrativa.</p>
                   </div>
                   <div class="abut-fst-img pt-3">
                      <img src="../../images/ab2.jpg" alt=" " class="img-fluid">
@@ -37,7 +37,7 @@
                   </div>
                   <div class="info-sub-w3">
                      <p>Se prepare para traçar sua jornada em diversos universos, em épocas diferentes, com os mais variados oponentes e vilões, ou se prepare para aguentar aquele amigo que sempre tira 1 no d20 e estraga a estratégia d otime inteiro em uma única ação.</p>
-                     <p class="pt-2">Se você ainda tem vontade de processeguir <span id="mostraMenuParaJogador" style="cursor: pointer; font-weight: bold;">Clique aqui</span> e comece sua jornada.</p>
+                     <p class="pt-2">Se você ainda tem vontade de processeguir <spam id="mostraMenuParaJogador" style="cursor: pointer; font-weight: bold;">Clique aqui</spam> e comece sua jornada.</p>
                   </div>
                   <div class="abut-fst-img pt-3">
                      <img src="../../images/ab2.jpg" alt=" " class="img-fluid">
@@ -110,7 +110,7 @@
          <div class="row" style="border: 1px solid #ffffff;">
       <div class="col-md-12 col-lg-12 col-sm-12 text-center">
                <br>
-            Mudou de ideia? Nunca fui chegado com que Mestra mesmo <span id="mostraSessãoInicialMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para escolher novamente.
+            Mudou de ideia? Nunca fui chegado com que Mestra mesmo <spam id="mostraSessãoInicialMestre" style="cursor: pointer; font-weight: bold;">Clique aqui</spam> para escolher novamente.
             <p>&nbsp</p>
           
          </div>
@@ -171,7 +171,7 @@
          
          <div class="col-md-12 col-lg-12 col-sm-12 text-center">
                <br>
-            Mudou de ideia? Eu sempre gostei mais de quem Mestra mesmo <span id="mostraSessãoInicialJogador" style="cursor: pointer; font-weight: bold;">Clique aqui</span> para escolher novamente.
+            Mudou de ideia? Eu sempre gostei mais de quem Mestra mesmo <spam id="mostraSessãoInicialJogador" style="cursor: pointer; font-weight: bold;">Clique aqui</spam> para escolher novamente.
             <p>&nbsp</p>
           
          </div>

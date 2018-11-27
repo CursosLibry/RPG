@@ -3,6 +3,10 @@ require_once "../config/autoload.php";
 
 if($_POST){
 	if($_POST["email"]){
+		if($_POST['password'] != $_POST['password2']){
+			header("location: ../view/user/register.php?err=pass");
+			die();
+		}
 		$classe = new User();
 		$classe->name = $_POST['name'];
 		$classe->email = $_POST['email'];
@@ -32,5 +36,7 @@ if($_POST){
 		$classe->password = $_POST['password'];
 		$classe->newInsert();
 		$classe->redirect();
+		}
+	}else{
+		die("sedsa");
 	}
-}

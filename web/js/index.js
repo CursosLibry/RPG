@@ -19,17 +19,4 @@ $(document).ready(function() {
         }
         });
     });
-    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-        $(this).toggleClass('open');
-        var div = $("#menu_div");
-        var conteudo = $(".menu");
-        console.log(div.is(":visible"))
-        if(div.is(":visible")==true){
-            div.hide("fade", 200);
-            // conteudo.show("fade",200);
-        }else{
-            div.show("fade", 200);
-            // conteudo.hide("fade",200);
-        }
-    });
 });

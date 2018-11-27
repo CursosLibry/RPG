@@ -1,29 +1,17 @@
    <!--Footer -->   
-      <footer>
-        <div class="footer-section">
-          <div class="container">
-            <div class="footer-top">
-            <p>2018 - Todos os Direitos Reservados </p>
-            <p>Designed by <a href="http://w3layouts.com" target="target_blank">Didier Laureaux</a></p>
-          </div>
-					<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-					</script>
-				<a class="scroll" href="#head" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-				</div>
-			</div>
+      <footer class="py-lg-4 py-md-3 py-sm-3 py-3">
+         <div class="icons text-center p-3">
+            <ul>
+               <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+               <li><a href="#"><span class="fas fa-envelope"></span></a></li>
+               <li><a href="#"><span class="fas fa-rss"></span></a></li>
+               <li><a href="#"><span class="fab fa-vk"></span></a></li>
+            </ul>
+         </div>
+         <div class="footer-below text-center">
+            <!-- <p>©2018 Dragon Hunt. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a></p> -->
+            <p>©2018 Libry RPG. Rodos direitos reservados | Feito pela Equipe Libry</p>
+         </div>
       </footer>
       <!-- //Footer -->
       <!--js working-->

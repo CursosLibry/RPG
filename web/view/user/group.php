@@ -33,10 +33,10 @@ if($_GET){
                </div>
                <div class="col-md-4 service-icon-agile">
                   <div class="feature-inner">
-                     <h5>Moldar ficha</h5>
+                     <a href="chooseFicha.php"><h5>Moldar ficha</h5></a>
                   </div>
                   <div class="address-left text-center">
-                     <span class="fab fa-android"></span>
+                      <a href="chooseFicha.php"><span class="fab fa-android"></span></a>
                   </div>
                   <div class="address-right">
                      <p class="pt-2">Nessa seção você pode criar as fichas que os jogadores irão preencher para iniciar o jogo, , você pode optar por seguir nosso padrão ou criar a sua do zero sem nenhuma limitação.
