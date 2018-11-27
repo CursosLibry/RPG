@@ -3,9 +3,9 @@ $( document ).ready(function(){
 	$('#secaoJogador').hide();
 		$('#mostraMenuParaMestre').click(function(){
 			$('#secaoFooter').hide();
-			$('#secaoMestreJogadorEscolha').slideUp("slow", function(){
+			$('#secaoMestreJogadorEscolha').fadeOut("slow", function(){
 				$('#secaoMestreJogadorEscolha').hide();
-				$('#secaoMestre').slideDown('slow', function(){
+				$('#secaoMestre').fadeIn('slow', function(){
 					$('#secaoFooter').show();
 				});
 				$('#secaoMestre').show();
@@ -16,9 +16,9 @@ $( document ).ready(function(){
 
 		$('#mostraMenuParaJogador').click(function(){
 			$('#secaoFooter').hide()
-			$('#secaoMestreJogadorEscolha').slideUp('slow', function(){
+			$('#secaoMestreJogadorEscolha').fadeOut('slow', function(){
 				$('#secaoMestreJogadorEscolha').hide();
-				$('#secaoJogador').slideDown('slow', function(){
+				$('#secaoJogador').fadeIn('slow', function(){
 					$('#secaoFooter').show();
 				});
 				$('#secaoJogador').show();
@@ -28,9 +28,9 @@ $( document ).ready(function(){
 
 		$('#mostraSessãoInicialMestre').click(function(){
 			$('#secaoFooter').hide();
-			$('#secaoJogador').slideUp('slow', function(){
+			$('#secaoJogador').fadeOut('slow', function(){
 				$('#secaoJogador').hide();
-				$('#secaoMestreJogadorEscolha').slideDown('slow', function(){
+				$('#secaoMestreJogadorEscolha').fadeIn('slow', function(){
 					$('#secaoFooter').show();
 				});
 				$('#secaoMestreJogadorEscolha').show();
@@ -40,9 +40,9 @@ $( document ).ready(function(){
 
 		$('#mostraSessãoInicialJogador').click(function(){
 			$('#secaoFooter').hide();
-			$('#secaoMestre').slideUp('slow', function(){
+			$('#secaoMestre').fadeOut('slow', function(){
 				$('#secaoMestre').hide();
-				$('#secaoMestreJogadorEscolha').slideDown('slow', function(){
+				$('#secaoMestreJogadorEscolha').fadeIn('slow', function(){
 					$('#secaoFooter').show();
 				});
 				$('#secaoMestreJogadorEscolha').show();
