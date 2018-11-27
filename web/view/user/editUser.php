@@ -44,15 +44,16 @@ $user = pesquisaUsuario($a);
                               <input type="text" class="form-control" placeholder="Nome Completo" name="user_name" required="">
                            </div>
                              <div class="col-lg-6 col-md-6 form-group contact-forms">
-                              <input type="email" class="form-control" placeholder="Email" name="user_email" value="<?php echo $user->email; ?>" disabled>
+                              <input type="email" class="form-control" placeholder="Email" name="user_email_f" value="<?php echo $user->email; ?>" disabled>
+                              <input type="email" class="form-control" placeholder="Email" name="user_email" value="<?php echo $user->email; ?>" style="display: none;">
                            </div>
                            </div>
                            <div style="padding-top: 50px;padding-bottom: 50px;" class="row agile-wls-contact-mid mb-sm-3 mb-2">
                            <div class="col-lg-6 col-md-6 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Apelido" name="user_nick" required="">
+                              <input type="text" class="form-control" placeholder="Apelido" name="user_nick_reg" required="">
                            </div>
                            <div class="col-lg-1 col-md-1 form-group contact-forms">
-                           	 	<spam style="font-size: 14px; padding-left: 7px; color: #6d6d6d;"> Genêro: </spam>
+                           	 	<span style="font-size: 14px; padding-left: 7px; color: #6d6d6d;"> Genêro: </span>
                            </div>
                             <div class="col-lg-5 col-md-5 form-group contact-forms">
                            	 <select name="user_gender" class="form-control" style="border: 2px solid #000;">
@@ -72,7 +73,7 @@ $user = pesquisaUsuario($a);
                               <input type="text" class="form-control" placeholder="Nacionalidade" name="user_nationality" required="">
                            </div>
                            <div class="col-lg-1 col-md-1 form-group contact-forms">
-                           	 	<spam style="font-size: 14px; padding-left: 7px; color: #6d6d6d;"> Raça: </spam>
+                           	 	<span style="font-size: 14px; padding-left: 7px; color: #6d6d6d;"> Raça: </span>
                            </div>
                             <div class="col-lg-5 col-md-5 form-group contact-forms">
                            	 <select name="user_race" class="form-control" style="border: 2px solid #000;">

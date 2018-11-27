@@ -10,7 +10,7 @@
          </div>
          <div class="footer-below text-center">
             <!-- <p>©2018 Dragon Hunt. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a></p> -->
-            <p>©2018 Libry RPG. Rodos direitos reservados | Feito pela Equipe Libry</p>
+            <p>©2018 Libry RPG. Todos direitos reservados | Feito pela Equipe Libry</p>
          </div>
       </footer>
       <!-- //Footer -->

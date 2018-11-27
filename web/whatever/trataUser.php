@@ -4,7 +4,7 @@ require_once "../config/autoload.php";
 if($_POST){
 	if($_POST["user_email"]){
 		if($_POST['user_pass'] != $_POST['user_pass2']){
-			header("location: ../view/user/register.php?err=pass");
+			//header("location: ../view/user/register.php?err=pass");
 			die();
 		}
 		$classe = new User();
@@ -31,16 +31,19 @@ if($_POST){
 			header("location: ../view/user/login.php?err=pass2");
 		}
 	}
-	if($_POST['user_gender']){
+	if($_POST['user_nick_reg']){
 		$classe->name = $_POST['user_name'];
 		$classe->email = $_POST['user_email'];
 		$classe->gender = $_POST['user_gender'];
 		$classe->nationality = $_POST['user_nationality'];
 		$classe->race = $_POST['user_race'];
 		$classe->status = $_POST['user_status'];
-		$classe->nick = $_POST['user_nick'];
+		$classe->nick = $_POST['user_nick_reg'];
 		if($classe->validateNewInsert()){
 			$classe->newInsert($_POST['user_email']);
+			
+
+	
 			$classe->redirect();
 		}else{
 			header("location: ../view/user/editUser.php?err=pass");

@@ -62,18 +62,14 @@
                   <nav>
                      <ul>
                         <li><a href="/rpg/web/view/index.php" >Home</a></li>
-                        <li><a href="/rpg/web/view/about.php" >About</a></li>
-                        <li><a href="/rpg/web/view/history.php" >History</a></li>
-                        <li><a href="/rpg/web/view/hero.php" >Avatar</a></li>
-                        <li><a href="/rpg/web/view/gallery.php" >Gallery</a></li>
-                        <li><a href="/rpg/web/view/contact.php"  >Contact</a></li>
+                        <!-- <li><a href="/rpg/web/view/contact.php"  >Contact</a></li> -->
                         <li><a href="/rpg/web/view/user/login.php"  >Usuário</a></li>
                      </ul>
                   </nav>
                </div>
                <div class="hedder-logo">
                   <h1><a href="/rpg/web/index.php">   
-                     <img src="/rpg/web/images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
+                    Libry</a>
                   </h1>
                </div>
                <!-- /open/close -->

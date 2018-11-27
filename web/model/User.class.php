@@ -29,7 +29,7 @@ class User extends Model{
     public function newInsert($email){ // da insert nos dados que o usuário irá cadastrar após seu cadastro
         try{
             $c = $this->conn->prepare("INSERT INTO user(name,email,gender,nationality,race,status,nick) 
-    		VALUES(:name,:email,:gender,:nationality,:race,:status,nick) WHERE email = '$email'");
+    		VALUES(:name,:email,:gender,:nationality,:race,:status,:nick) WHERE email = '$email'");
             $c->bindValue(':name',$this->name,PDO::PARAM_STR);
             $c->bindValue(':email',$this->email,PDO::PARAM_STR);
             $c->bindValue(':gender',$this->gender,PDO::PARAM_STR);
@@ -74,7 +74,7 @@ class User extends Model{
             $c->bindValue(':email',$this->email,PDO::PARAM_STR);
             $c->execute();
             $arr = $c->fetchAll(PDO::FETCH_CLASS, "User");
-            return count($arr)? false: true;
+            return count($arr)? true: false;
         }catch(Exception $e){
 // para o futuro tratamento de erros
         }

@@ -123,7 +123,7 @@ button#trigger-overlay {
 }
 /*--//nav --*/
 /*--- slider-css --*/
-.one-img{ background: url(../images/b1.jpg) no-repeat 0px 0px;}
+.one-img{ background: url(../images/background1.png) no-repeat 0px 0px;}
 .two-img{ background: url(../images/b2.jpg) no-repeat 0px 0px;}
 .three-img{ background: url(../images/b3.jpg) no-repeat 0px 0px;}
 .four-img{ background: url(../images/b4.jpg) no-repeat 0px 0px;}
@@ -241,7 +241,7 @@ button#trigger-overlay {
 /*--Banner-inner --*/
 .inner_page-banner {
   text-align: center;
-  background: url(../images/b1.jpg) no-repeat center;
+  background: url(../images/background1.png) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -394,17 +394,17 @@ figure.snip1321.hover:after {
 /*--//avatar-- */
 /*--service-- */
 .agile-img-design-left {
-  background: url(../images/dd1.jpg)no-repeat center;
+  background: url(../images/index1.png)no-repeat center;
 }
 .agile-img-design-right{  
-  background: url(../images/dd2.jpg)no-repeat center; 
+  background: url(../images/index2.png)no-repeat center; 
 }
 .agile-img-design-right, .agile-img-design-left {
   background-size: cover;
   height: 660px;
 }
 .service-wthree-list {
-  background: #000;
+  background: #000e1a;
   padding: 3em 5em;
 }
 .feature-service-list ul li p {
@@ -430,7 +430,7 @@ figure.snip1321.hover:after {
   font-weight: 100;
 }
 .latest-design,.feature-inner {
-  background:#7c88ff;
+  background:#255e8d;
 }
 .timeline__content h6 {
   font-size: 19px;
