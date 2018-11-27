@@ -32,9 +32,9 @@
    </section>
    <!-- EDIT PASSWORD -->
    <section class="return">
-      <div class="col-md-12 centralize">
+      <div class="col-md-12 centralize" style="font-color: #fff; background-color: #1F1F28;">
          <p>
-            <a href="editUser.php" style="cursor: pointer; font-weight: bold; color: black;">
+            <a href="editUser.php" style="cursor: pointer; font-weight: bold;">
             <i class="fas fa-arrow-left"></i> Voltar</a>
          </p>
       </div>

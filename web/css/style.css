@@ -285,11 +285,11 @@ p.lable1 {
 }
 
 .services-section {
-  background: url("../images/banner1.jpg") no-repeat;
+  background: #010810;
   background-size: cover;
   height: 55vh;
   min-height: 500px;
-  padding: 9em 0;
+  padding: 4em 0;
 }
 main.group .services-section{
   background-image: unset;
@@ -968,9 +968,9 @@ article>div {
 }
 /* REGISTER */
 .register-section {
-  background-color: #1F3759;
-  padding: 8em 10em;
-  height: 60vh;
+  background-color: #010810;
+  padding: 6em 10em;
+  height: 90vh;
 }
 
 .register-leftgrid h3 {
@@ -981,7 +981,7 @@ article>div {
 
 /*** contact***/
 .contact-section {
-  background-color: #1F3759;
+  background-color: #010810;
   padding: 8em 0;
 }
 
@@ -1072,7 +1072,7 @@ input[type="text"] {
 .footer-section {
   padding: 3em 0;
   text-align: center;
-  background: #1a1a1a;
+  background: #051324;
 }
 
 .footer-top p {
@@ -1282,7 +1282,7 @@ input[type="text"] {
 /* CUSTOMIZATION */
 
 .about-grids{
-  background-color: #1F3759;
+  background-color: #051324;
 }
 .inline{
   display: inline;
@@ -1358,7 +1358,7 @@ main.edit_password section.return div{
   background-position: 50% 50%;
 }
 .contact-section{
-  min-height: 50vh;
+  min-height: 90vh;
 }
 .contact-rightgrid{
   height: 45vh;

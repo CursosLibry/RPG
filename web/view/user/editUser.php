@@ -54,9 +54,14 @@
       </div>
    </div>
    <section class="return">
-      <div class="col-md-12 centralize">
+      <div class="col-md-12 centralize" style="font-color: #fff; background-color: #1F1F28;">
          <p>
-            Se deseja trocar de senha <a href="trocarSenha.php" style="cursor: pointer; font-weight: bold; color: black;">Clique aqui</a> para trocá-la.
+            Se deseja trocar de senha <a href="trocarSenha.php" style="cursor: pointer; font-weight: bold;">Clique aqui</a> para trocá-la.
+         </p>
+         <br><br>
+         <p>
+         <a href="user.php" style="cursor: pointer; font-weight: bold;">
+            <i class="fas fa-arrow-left"></i> Voltar</a>
          </p>
       </div>
    </section>

@@ -3,8 +3,8 @@
         <div class="footer-section">
           <div class="container">
             <div class="footer-top">
-            <p>2018 - Todos os Direitos Reservados </p>
-            <p>Designed by <a href="http://w3layouts.com" target="target_blank">Didier Laureaux</a></p>
+            <p>2018 - Todos os Direitos Reservados Equipe Libry</p>
+            <!-- <p>Designed by <a href="http://w3layouts.com" target="target_blank">Didier Laureaux</a></p> -->
           </div>
 					<script type="text/javascript">
 						$(document).ready(function() {

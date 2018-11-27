@@ -26,7 +26,7 @@
             <div class="about-grids">
                <div class="col-md-6 left-grid">
                   <div class="right-grid1-icon">
-                     <img src="/rpg/web/images/icon.png">
+                     <!-- <img src="/rpg/web/images/icon.png"> -->
                      <!--Put your Central Icon HERE-->
                   </div>
                   <div class="img" style="background-image: url('/rpg/web/images/pic1.gif')"></div>

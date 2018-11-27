@@ -32,9 +32,9 @@
    <section class='about'>
       <div class="content">
       <!--Content Section-->
-         <div class="about-section" >
+         <div class="about-section">
             <!-- About Libry-->
-            <div class="about-grids">
+            <div class="about-grids" style="background-color: #010810;">
                <div class="col-md-6 left-grid">
                   <div class="right-grid1-icon">
                      <!-- <img src="/rpg/web/images/icon.png"> -->
@@ -43,16 +43,16 @@
                   <div class="img" style="background-image: url('/rpg/web/images/pic1.gif')"></div>
                   <!--Put your Right Image HERE-->
                </div>
-               <div class="col-md-6 right-grid" style="background-color: white; height: 600px;">
+               <div class="col-md-6 right-grid">
                   <div class="right-top">
-                     <h3 style="color: black;">Um grandioso Mestre</h3>
-                     <p style="color: black;">
+                     <h3>Um grandioso Mestre</h3>
+                     <p>
                         Então você foi o escolhido para mestrar a história, fique preparado 
                         para criar ambientes ricos em detalhes, inimigos mais inteligentes 
                         do que trolls, uma narrativa cativante que faça até o mais entendiado 
                         se sentir um verdadeiro Bárbaro.  
                      </p>
-                     <p style="color: black;" class="lable1">
+                     <p class="lable1">
                         Se essa é a escolha, por unânimidade de todos integrantes em um sistema
                         democrático de votos(ou não...), clique no botão abaixo para iniciar a sua narrativa.
                      </p>
@@ -68,7 +68,7 @@
          </div>
          <div class="about-section">
             <!-- About D&D -->
-            <div class="about-grids">
+            <div class="about-grids" style="background-color: #010810;">
                <div class="col-md-6 left-grid">
                   <div class="right-top">
                      <h3>Um lendário Jogador</h3>
@@ -172,7 +172,7 @@
       </div>
    </section>
    <section class="return">
-      <div class="col-md-12 centralize">
+      <div class="col-md-12 centralize" style=" font-color: #fff; background-color: #1F1F28;">
          <p>
             Mudou de ideia? Nunca fui chegado com quem Mestra mesmo.
          </p> 
@@ -258,7 +258,7 @@
       <!--END EQUIPE-->
    </section>
    <section class="return">
-      <div class="col-md-12 centralize">
+      <div class="col-md-12 centralize" style="font-color: #fff; background-color: #1F1F28;">
          <p>
             Mudou de ideia? Sempre gostei mais de quem Mestra mesmo.
          </p> 
