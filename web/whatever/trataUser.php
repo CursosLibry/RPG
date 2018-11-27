@@ -1,42 +1,49 @@
-<?php
+<?php session_start();
 require_once "../config/autoload.php"; 
 
 if($_POST){
-	if($_POST["email"]){
-		if($_POST['password'] != $_POST['password2']){
+	if($_POST["user_email"]){
+		if($_POST['user_pass'] != $_POST['user_pass2']){
 			header("location: ../view/user/register.php?err=pass");
 			die();
 		}
 		$classe = new User();
-		$classe->name = $_POST['name'];
-		$classe->email = $_POST['email'];
-		$classe->nick = $_POST['nick'];
-		$classe->password = $_POST['password'];
+		$classe->name = $_POST['user_name'];
+		$classe->email = $_POST['user_email'];
+		$classe->nick = $_POST['user_nick'];
+		$classe->password = $_POST['user_pass'];
 		if($classe->validateInsert()){
 			$classe->insert();
+			$_SESSION["user_nick"] = $_POST['user_nick'];
 			$classe->redirect();
+		}else{
+			header("location: ../view/user/register.php?err=pass2");
 		}
 	}
-	elseif($_POST['login']){
+	if($_POST['user_nick']){
 		$classe = new User();
-		$classe->nick = $_POST['nick'];
-		$classe->password = $_POST['password'];
-		if($class->validateLogin()){
-			$classe->insert();
+		$classe->nick = $_POST['user_nick'];
+		$classe->password = $_POST['user_pass'];
+		if($classe->validateLogin()){
+			$_SESSION["user_nick"] = $_POST['user_nick'];
 			$classe->redirect();
+		}else{
+			header("location: ../view/user/login.php?err=pass2");
 		}
 	}
-	elseif($_POST['gender']){
-		$classe->name = $_POST['name'];
-		$classe->email = $_POST['email'];
-		$classe->email = $_POST['gender'];
-		$classe->email = $_POST['nationality'];
-		$classe->email = $_POST['race'];
-		$classe->nick = $_POST['nick'];
-		$classe->password = $_POST['password'];
-		$classe->newInsert();
-		$classe->redirect();
+	if($_POST['user_gender']){
+		$classe->name = $_POST['user_name'];
+		$classe->email = $_POST['user_email'];
+		$classe->gender = $_POST['user_gender'];
+		$classe->nationality = $_POST['user_nationality'];
+		$classe->race = $_POST['user_race'];
+		$classe->status = $_POST['user_status'];
+		$classe->nick = $_POST['user_nick'];
+		if($classe->validateNewInsert()){
+			$classe->newInsert($_POST['user_email']);
+			$classe->redirect();
+		}else{
+			header("location: ../view/user/editUser.php?err=pass");
 		}
-	}else{
-		die("sedsa");
+		}
 	}

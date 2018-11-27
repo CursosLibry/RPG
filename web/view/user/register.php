@@ -1,4 +1,8 @@
-         <?php include_once '../../inc/header.inc.php'; ?>
+<?php session_start();
+if(isset($_SESSION["user_nick"])){
+    header("location: user.php");
+}
+ include_once '../../inc/header.inc.php'; ?>
       <!-- banner -->
       <div class="inner_page-banner">
       </div>
@@ -12,21 +16,21 @@
                      <form action="../../whatever/trataUser.php" method="POST">
                         <div class="row agile-wls-contact-mid mb-sm-3 mb-2">
                            <div class="col-lg-6 col-md-6 form-group contact-forms">
-                              <input name="name" type="text" class="form-control" placeholder="Nome Completo" required="">
+                              <input type="text" class="form-control" placeholder="Nome Completo" required="" name="user_name">
                            </div>
                              <div class="col-lg-6 col-md-6 form-group contact-forms">
-                              <input type="email" class="form-control" placeholder="Email" required="" name="email">
+                              <input type="email" class="form-control" placeholder="Email" required="" name="user_email">
                            </div>
                            </div>
                            <div style="padding: 50px 50px;" class="row agile-wls-contact-mid mb-sm-3 mb-2">
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="text" class="form-control" placeholder="Apelido" required="" name="nick">
+                              <input type="text" class="form-control" placeholder="Apelido" required="" name="user_nick">
                            </div>
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="password" class="form-control pass" placeholder="Senha" required="" name="password">
+                              <input type="password" class="form-control pass" placeholder="Senha" required="" name="user_pass">
                            </div>
                            <div class="col-lg-4 col-md-4 form-group contact-forms">
-                              <input type="password" class="form-control pass" placeholder="Repita a Senha" required="" name="password2">
+                              <input type="password" class="form-control pass" placeholder="Repita a Senha" required="" name="user_pass2">
                            </div>
                         </div>
                         <button style="background-color: #969696;" type="submit" class="btn sent-butnn btn-lg">Escrever a Minha!</button>

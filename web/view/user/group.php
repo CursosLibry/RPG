@@ -1,4 +1,8 @@
-<?php include_once '../../inc/header.inc.php';
+<?php session_start();
+if(!isset($_SESSION["user_nick"]) || $_SESSION["user_nick"] == null || $_SESSION["user_nick"] == '' || $_SESSION["user_nick"] == " " || $_SESSION["user_nick"] == false){
+    header("location: semPermissao.php");
+}
+ include_once '../../inc/header.inc.php';
 // include_once '../../whatever/funcoesGrupo.php';
 
 if($_GET){
