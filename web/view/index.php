@@ -134,7 +134,7 @@
                   <br>
                   <div class="ser-middle-info">
                      <h5>
-                        <a href="user/view/registerView.php">Comece já.</a>
+                        <a href="user/register.php">Comece já.</a>
                      </h5>
                   </div>
                </div>
