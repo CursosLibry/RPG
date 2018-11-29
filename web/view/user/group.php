@@ -25,10 +25,10 @@ if($_GET){
             <div class="row text-center">
                <div class="col-md-4 service-icon-agile">
                   <div class="feature-inner ">
-                     <h5>Escrever história</h5>
+                     <a href="createHistoryGrupo.php"><h5>Escrever história</h5></a>
                   </div>
                   <div class="address-left text-center">
-                     <span class="fab fa-asymmetrik"></span>
+                     <a href="createHistoryGrupo.php"><span class="fab fa-asymmetrik"></span></a>
                   </div>
                   <div class="address-right">
                      <p class="pt-2">Tudo tem seu início com uma boa história, você pode optar por seguir nosso padrão ou criar a sua do zero sem nenhuma limitação.
